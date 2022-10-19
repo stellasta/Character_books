@@ -1,0 +1,49 @@
+<div class="container">
+    <%= form_tag("/create/#{@character.id}/update",{multipart:true}) do %>
+        <div class="form">
+            <fieldset>
+                <legend></legend>
+                <h4>-基本設定-</h4>
+                <label for="name">名前<span>*</span>（最大１０文字）</label>
+                <input class="board" name="name" id="name" value="<%= @character.name %>">      
+                <label for="sex">性別</label>
+                <input class="board" name="sex" id="sex" value="<%= @character.sex %>">
+                <label for="age">年齢</label>
+                <input class="board" name="age" id="age" value="<%= @character.age %>">
+                <label for="race">種族</label>
+                <input class="board" name="race" id="race" value="<%= @character.race %>">
+                <h4>-外見-</h4>
+                <label for="height">身長（単位を含む）</label>
+                <input class="board" name="height" id="height" value="<%= @character.height %>">
+                <label for="hair">髪</label>
+                <input class="board" name="hair" id="hair" value="<%= @character.hair %>">
+                <label for="eye">瞳</label>
+                <input class="board" name="eye" id="eye" value="<%= @character.eye %>">
+                <label for="skin">肌</label>
+                <input class="board" name="skin" id="skin" value="<%= @character.skin %>">
+                <label for="form">体型</label>
+                <input class="board" name="form" id="form" value="<%= @character.form %>">
+                <label for="dress">服装</label>
+                <input class="board" name="dress" id="dress" value="<%= @character.dress %>">
+                <label for="image">イメージ画像</label>
+                <input type="file" name="image_name" id="image" value="<%= @character.image_name %>">
+                <h4>-性格-</h4>
+                <label for="personality1">性格➀</label>
+                <input class="board" name="personality1" id="personality1" value="<%= @character.personality1 %>">
+                <label for="personality2">-詳細-</label>
+                <input class="board" name="personality2" id="personality2" value="<%= @character.personality2 %>">
+                <label for="personality3">性格➁</label>
+                <input class="board" name="personality3" id="personality3" value="<%= @character.personality3 %>">
+                <label for="personality4">-詳細-</label>
+                <input class="board" name="personality4" id="personality4" value="<%= @character.personality4 %>">
+                <label for="personality5">性格➂</label>
+                <input class="board" name="personality5" id="personality5" value="<%= @character.personality5 %>">
+                <label for="personality6">-詳細-</label>
+                <input class="board" name="personality6" id="personality6" value="<%= @character.personality6 %>">
+                <label for="group">グループ名<span>*</span>（最大１０文字）</label>
+                <input class="board" name="group" id="group" value="<%= @character.others1 %>">
+                <input type="submit" value="編集完了">
+            </fieldset>
+        </div>
+    <% end %>
+</div>

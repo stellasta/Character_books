@@ -1,47 +1,24 @@
-# キャラクター図鑑
+# README
 
-キャラを管理するアプリ
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## 概要
+Things you may want to cover:
 
-キャラのプロフィールを作成して、図鑑形式で表示するアプリ
+* Ruby version
 
-## 使用言語
+* System dependencies
 
-Ruby on rails(Ruby,HTML&CSS)
+* Configuration
 
-## 付いている機能
+* Database creation
 
-新規登録、ログイン＆ログアウト、キャラ作成、キャラ一覧（全体）、キャラ一覧（グループごと）キャラ詳細、キャラ編集＆削除
+* Database initialization
 
-## 制作背景
+* How to run the test suite
 
-趣味で小説を書いているのだが、自作したキャラクターをイメージ画像つきで表示できるアプリが見つからなかったので自ら作成することにした。
+* Services (job queues, cache servers, search engines, etc.)
 
-## 工夫した点
+* Deployment instructions
 
-制作期間を3週間と定めて、それに間に合うよう重要な機能から実装していった。自分で使いたくなるようなデザインにするよう心がけた。
-
-## 今後の改善点
-
-スマホなどで縦画面にするとデザインが崩れるためBootStrapを導入してレスポンシブにしたい。herokuの仕様（？）で投稿した画像データが24時間ごとに消えてしまうので、それをどうにかして消えないようにしたい。新規登録やログインの際にFacebookやGoogle、Twitterのアカウントを使えるようにしたい。
-
-##　テストアカウント
-
-メアド：hog.orangeboy0527@gmail.com
-
-パスワード：suisei
-
-## アプリURL
-
-https://enigmatic-springs-48193.herokuapp.com/
-
-## サンプル画像
-
-![sample_image1](https://user-images.githubusercontent.com/114735182/196668220-9486a3f4-8504-4cae-b8f1-466fcdf6910a.png)
-![sample_image2](https://user-images.githubusercontent.com/114735182/196670794-93ff5389-25c5-4d3b-b5bb-df450dbded3d.png)
-![sample_image3](https://user-images.githubusercontent.com/114735182/196671051-8f2aa7f1-8075-4d2f-9f06-041e3d41a1fe.png)
-![sample_image4](https://user-images.githubusercontent.com/114735182/196671200-f7062e22-ed07-49e6-b079-bb6f04bbef88.png)
-
-
-
+* ...

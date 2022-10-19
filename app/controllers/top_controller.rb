@@ -1,0 +1,6 @@
+class TopController < ApplicationController
+  before_action :forbid_login_user
+
+  def home
+  end
+end

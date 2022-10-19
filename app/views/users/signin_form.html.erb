@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>キャラクター図鑑へようこそ</h1>
+  <%= form_tag("/users/signin") do %>
+    <div class="form">
+      <fieldset>
+        <legend>新規登録はこちら</legend>
+        <label for="email">メールアドレス</label>
+        <input class="board" name="email" id="email">
+        <label for="name">名前</label>
+        <input class="board" name="name" id="name">
+        <label for="password">パスワード</label>
+        <input class="board" type="password" name="password" id="password">
+        <input type="submit" value="送信">
+      </fieldset>
+    </div>
+  <% end %>
+</div>

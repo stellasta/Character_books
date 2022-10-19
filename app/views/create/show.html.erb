@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="character-table">
+        <div class="character-basic">
+            <h3><%= @character.name %></h3>
+            <p>性別:  <%= @character.sex %></p>
+            <p>髪の毛:  <%= @character.hair %></p>
+            <p>年齢:  <%= @character.age %></p>
+            <p>瞳:  <%= @character.eye %></p>
+            <p>種族:  <%= @character.race %></p>
+            <p>肌:  <%= @character.skin %></p>
+            <p>身長:  <%= @character.height %></p>
+            <p>体型:  <%= @character.form %></p>
+            <p>服装:  <%= @character.dress %></p>
+        </div>
+        <div class="character-personality">
+            <h4>性格➀: <%= @character.personality1 %></h4>
+            <p><%= @character.personality2 %></p>
+            <h4>性格➁:  <%= @character.personality3 %></h4>
+            <p><%= @character.personality4 %></p>
+            <h4>性格➂:  <%= @character.personality5 %></h4>
+            <p><%= @character.personality6 %></p>
+        </div>
+    </div>
+    <div class="character-image-show">
+         <img src="<%= "/user_images/#{@character.image_name}" %>">
+    </div>
+    <div class="edit-destroy">
+        <p>
+          <%= link_to("編集","/create/#{@character.id}/edit") %>
+          <%= link_to("削除","/create/#{@character.id}/destroy") %>
+        </p>
+    </div>
+</div>

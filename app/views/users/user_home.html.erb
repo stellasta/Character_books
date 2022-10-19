@@ -1,0 +1,16 @@
+<div class="container">
+  <h2>キャラ一覧</h2>
+  <% @characters.each do |character| %>
+    <div class="characters-index">
+      <div class="character-image">
+        <img src="<%= "/user_images/#{character.image_name}" %>">
+      </div>
+      <div class="character-tag">
+        <div class="character-name">
+          <%= link_to(character.name, "/create/#{character.id}/show") %>
+        </div>
+        <%= link_to(character.others1, "/create/#{character.id}/group") %>
+      </div>
+    </div>
+  <% end %>
+</div>
