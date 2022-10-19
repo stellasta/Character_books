@@ -1,24 +1,41 @@
-# README
+# キャラクター図鑑
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+キャラを管理するためのアプリ
 
-Things you may want to cover:
+##　概要
 
-* Ruby version
+キャラを作成し、図鑑形式で表示するアプリ
 
-* System dependencies
+##　使用言語
 
-* Configuration
+Ruby on rails(Ruby,HTML&CSS)
 
-* Database creation
+## 実装した機能
 
-* Database initialization
+新規登録、ログイン＆ログアウト、新規キャラ作成、キャラ一覧（全体）、キャラ一覧（グループごと）、キャラ詳細表示、キャラ編集＆削除
 
-* How to run the test suite
+## 制作背景
 
-* Services (job queues, cache servers, search engines, etc.)
+趣味で小説を書いているのだが、自作したキャラクターをイメージ画像つきで表示できるアプリが見つからなかったため自ら制作した。
 
-* Deployment instructions
+## 工夫した点
 
-* ...
+制作期間を3週間と定めて、それに間に合うよう重要な機能から実装していった。自分で使いたくなるようなデザインにするよう心がけた。
+
+## 改善点
+
+スマホなどで縦画面にするとデザインが崩れるためBootStrapを導入してレスポンシブにしたい。herokuの仕様（？）で24時間ごとに投稿したデータが消えてしまうため、どうにかして消えないようにしたい。新規登録やログインの際にFacebookやGoogle、Twitterのアカウントを使用できるようにしたい。
+
+## アプリのURL
+
+https://enigmatic-springs-48193.herokuapp.com/
+
+## テストアカウント
+
+メアド：hog.orangeboy0527@gmail.com
+
+パスワード：suisei
+
+## サンプル画像
+
+
