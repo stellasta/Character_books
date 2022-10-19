@@ -16,4 +16,4 @@ Ruby on rails(Ruby,HTML&CSS)
 
 ## サンプル画像
 
-![back_screan](https://user-images.githubusercontent.com/114735182/196650172-c9384d71-3022-4dd0-843a-2a2e6318a270.png)
+![sample_image1](https://user-images.githubusercontent.com/114735182/196668220-9486a3f4-8504-4cae-b8f1-466fcdf6910a.png)
