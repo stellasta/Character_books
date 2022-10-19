@@ -38,4 +38,5 @@ https://enigmatic-springs-48193.herokuapp.com/
 
 ## サンプル画像
 
+![sample_image4](https://user-images.githubusercontent.com/114735182/196671200-f7062e22-ed07-49e6-b079-bb6f04bbef88.png)
 
