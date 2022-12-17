@@ -28,7 +28,8 @@ Ruby on rails(Ruby,HTML&CSS)
 
 ## アプリのURL
 
-https://enigmatic-springs-48193.herokuapp.com/
+~~https://enigmatic-springs-48193.herokuapp.com/~~
+https://cryptic-meadow-37253.herokuapp.com/
 
 ## テストアカウント
 
